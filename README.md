@@ -1,8 +1,10 @@
 # yolov5-tensorrt-aimbot
 FPS game AI aimassist framework
-AI 是拿来用的，不是用来坑小白钱的，“穷疯了的人”会拿来到处卖
+AI 是拿来用的，不是用来坑小白钱的
+
 框架说明:
-需要有一点点python基础，完全没有编程基础还是学半个月再来
+
+需要有一点点python基础，完全没有编程基础建议学半个月再来
 
 此ai框架支持.pt 和 .trt 两种模型（yolov5 6.1类里的DetectMultiBackend函数自带自动识别并加载各种模型，本来还支持onnx的，但是我不想再下载TensorFlow了）,Pt模型应该是人人都能用，trt需要根据自己的显卡编译一次（编译方法最后有官方链接）。
 
